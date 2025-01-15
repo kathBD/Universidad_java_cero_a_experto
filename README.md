@@ -2,7 +2,7 @@
 aplicaciones del mundo real (Escritorio, Web y Full Stack) Spring, Hibernate, Jakarta EE
 
 # `Universidad Java cero a experto Java`
-- [ ] Fundamentos de Java
+- [X ] Fundamentos de Java
 - [ ] Programación Java
 - [ ] Conexión a Bases de Datos con JDBC
 - [ ] Servlets y JSPs
