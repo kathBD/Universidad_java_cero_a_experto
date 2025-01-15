@@ -11,5 +11,6 @@ public class SistemaReservaHotel {
         System.out.println("dias_estancia = " + dias_estancia);
         System.out.println("TARIFA_DIA = " + TARIFA_DIA);
         System.out.println("vista_mar = " + vista_mar);
+        System.out.println("vista_mar = " + vista_mar);
     }
 }
