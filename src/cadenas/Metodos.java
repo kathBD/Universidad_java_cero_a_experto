@@ -11,6 +11,12 @@ public class Metodos {
         //convertir a mayusculas
         var mayusculas = cadena1.toUpperCase();
         System.out.println("mayusculas = " + mayusculas);
+        //convertir  minisculas
+        System.out.println("cadena1 = " + cadena1.toLowerCase());
+        //eliminar espacios al inicio y al final
+        var cadena2 = " Leo mucho  ciencia ficcion....    ";
+        System.out.println("cadena2 con espacios = " + cadena2);
+        System.out.println("cadena2 sin espacios = " + cadena2.trim());
 
 
     }
