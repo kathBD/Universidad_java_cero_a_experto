@@ -1,3 +1,5 @@
+package OperadoresJava;
+
 public class OperadoresLogicos {
     public static void main(String[] args) {
         System.out.println("**Operadores Logicos***");

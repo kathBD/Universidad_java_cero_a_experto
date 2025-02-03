@@ -1,3 +1,5 @@
+package OperadoresJava;
+
 public class OperadoresComparacion {
     public static void main(String[] args) {
         /*

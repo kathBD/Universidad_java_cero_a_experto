@@ -1,3 +1,5 @@
+package OperadoresJava;
+
 import java.util.Scanner;
 
 public class ValorRango {
