@@ -1,4 +1,4 @@
-package cadenas;
+package FundamentosJava.cadenas;
 
 public class Reemplazar {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Reemplazar {
         //reemplazar "HOla por "adios"
 
         nuevaCadena = cadena1.replace("Hola", "Saludos");
-        //cadenas inmutables
+        //FundamentosJava.cadenas inmutables
         System.out.println("nuevaCadena = " + nuevaCadena);
 
 

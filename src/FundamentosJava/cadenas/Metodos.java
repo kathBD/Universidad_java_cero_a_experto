@@ -1,8 +1,8 @@
-package cadenas;
+package FundamentosJava.cadenas;
 
 public class Metodos {
     public static void main(String[] args) {
-        //metodos de cadenas
+        //metodos de FundamentosJava.cadenas
         var cadena1 = "Hola, mundo!";
         System.out.println("obtenerLongitud " + cadena1.length()); // imprime: 13
 

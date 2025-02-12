@@ -12,7 +12,7 @@ public class SentenciaIf {
         //Else if
         Integer age = 10;
        
-        if(age <=12) {
+        if(age >=12) {
             System.out.println("eres un infante");
         } else if (age> 13 && age <= 18 ) {
             System.out.println("Eres un adolescente");

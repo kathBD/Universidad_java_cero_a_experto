@@ -1,8 +1,8 @@
-package EntradaDatosConsola;
+package FundamentosJava.EntradaDatosConsola;
 
 public class FormateoNumerosCadenas {
     public static void main(String[] args) {
-        System.out.println("**Formateo de cadenas***");
+        System.out.println("**Formateo de FundamentosJava.cadenas***");
         var nombre = "Mateo";
         var edad = 25;
         var altura = 1.75;

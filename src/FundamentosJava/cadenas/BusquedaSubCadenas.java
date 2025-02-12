@@ -1,4 +1,4 @@
-package cadenas;
+package FundamentosJava.cadenas;
 
 public class BusquedaSubCadenas {
     public static void main(String[] args) {

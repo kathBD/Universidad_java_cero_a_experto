@@ -1,4 +1,4 @@
-package EntradaDatosConsola;
+package FundamentosJava.EntradaDatosConsola;
 
 import java.util.Random;
 import java.util.Scanner;

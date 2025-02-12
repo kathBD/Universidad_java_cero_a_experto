@@ -1,4 +1,4 @@
-package cadenas;
+package FundamentosJava.cadenas;
 
 public class MasConcatenacionCadenas {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class MasConcatenacionCadenas {
         //metodo concat
         cadena3 = cadena1.concat(" ").concat("Mundo");
         System.out.println("cadena3 = " + cadena3);
-//StringBuilder constructor de cadenas
+//StringBuilder constructor de FundamentosJava.cadenas
         var constructorCadenas = new StringBuilder();
         constructorCadenas.append(cadena1);
         constructorCadenas.append(" ").append(cadena2);
