@@ -7,7 +7,7 @@ public class SistemaReservaHotel {
         var scanner = new Scanner(System.in);
         var VistaMar = 190000;
         var SinVistaMar = 150000;
-
+//Informacion cliente
         System.out.print("Nombre Cliente:");
         var nombreCliente = scanner.nextLine();
         System.out.print("Ingrese el número de días de estadía: ");
