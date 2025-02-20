@@ -37,5 +37,36 @@ public class Estacion {
         }
         scanner.close();
         System.out.printf("La estación para el mes %d es %s ", mes, estacion);
+
+        //Ejecicio con Switch
+        String estacionSwitch = "";
+        switch(mes){
+            case 1: case 2: case 12:
+                estacionSwitch = "Invierno";
+                break;
+            case 4: case 3: case 5:
+                estacionSwitch = "Primavera";
+                break;
+            case 6: case 7: case 8:
+                estacionSwitch = "Verano";
+                break;
+            case 9: case 10: case 11:
+                estacionSwitch = "Otoño";
+                break;
+            default:
+                System.out.println("El mes ingresado no es válido");
+        }
+        System.out.printf("La estación para el mes %d es %s ", mes, estacionSwitch);
+
+        //Mejoraro Switch
+        String estacionSwitchEnhanced = "";
+        switch(mes){
+            case 1, 2, 12 -> estacionSwitchEnhanced = "Invierno";
+            case 4, 3, 5 -> estacionSwitchEnhanced = "Primavera";
+            case 6, 7, 8 -> estacionSwitchEnhanced = "Verano";
+            case 9, 10, 11 -> estacionSwitchEnhanced = "Otoño";
+            default -> System.out.println("El mes ingresado no es válido");
+        }
+        System.out.printf("La estación para el mes %d es %s ", mes, estacionSwitchEnhanced);
     }
 }
