@@ -38,8 +38,11 @@ public class Calculadora {
                 case 2 -> System.out.println("La resta de " + num1 + " y " + num2 + " es: " + (num1 - num2));
                 case 3 -> System.out.println("La multiplicación de " + num1 + " y " + num2 + " es: " + (num1 * num2));
                 case 4 -> {
-                    if (num2 != 0)
-                        System.out.println("La división de " + num1 + " y " + num2 + " es: " + (num1 / num2)); }
+                    if (num2 != 0){
+                        System.out.println("La división de " + num1 + " y " + num2 + " es: " + (num1 / num2));
+                }else
+                System.out.println("Error: División entre 0. \n");
+            }
                 case 5 -> {
                         System.out.print("Saliendo...\s");
                         salir = true;
