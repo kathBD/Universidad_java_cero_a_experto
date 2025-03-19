@@ -11,11 +11,11 @@ public class CreacionValidacionPassword {
 
         while (!salir) {
 
-            if (password.length() <= 6) {
-                System.out.println("PassWord Válido!.");
+            if (password.length() < 6) {
+                System.out.println("PassWord Válido!." + password);
                 salir = true;
             } else {
-                System.out.println("Contraseña: Debe tener al menos 6 caracteres.");
+                System.out.println("El password no cumple con los requisitos: Debe tener al menos 6 caracteres." + password);
                 System.out.print("Introduce una nueva contraseña: ");
                 password = scanner.nextLine();
             }
