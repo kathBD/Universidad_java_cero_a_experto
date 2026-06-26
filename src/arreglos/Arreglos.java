@@ -19,6 +19,8 @@ public class Arreglos {
 
 int [] datos = {100, 200, 300, 400};
 var datos2 = new int[]{100, 200, 300, 400};
+
+
 //imprimir
         System.out.println("valor 1 = " + datos[0]);
         System.out.println("valor 2 = " + datos[1]);
